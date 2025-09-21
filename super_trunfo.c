@@ -80,6 +80,16 @@ int main() {
     pibPerCapta2 = pib2 / populacao2;
     printf("Densidade populacional da Carta 2: %.2lf\n", densidadePopulacional2);
     printf("PIB per capta da Carta 2: %.2lf\n", pibPerCapta2);
+
+    printf("Combate: \n");
+    printf("Quem tem a maior população?");
+
+    // Decide qual cidade vence comparando sua população
+    if (populacao1 > populacao2) {
+        printf("Vencedor: %s venceu!!!", cidade1);
+    } else {
+        printf("Vencedor: %s venceu!!!", cidade2);
+    }
     
     return 0;
 }
