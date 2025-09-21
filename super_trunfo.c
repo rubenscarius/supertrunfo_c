@@ -82,13 +82,13 @@ int main() {
     printf("PIB per capta da Carta 2: %.2lf\n", pibPerCapta2);
 
     printf("Combate: \n");
-    printf("Quem tem a maior população?");
+    printf("Quem tem a maior população?\n");
 
     // Decide qual cidade vence comparando sua população
     if (populacao1 > populacao2) {
-        printf("Vencedor: %s venceu!!!", cidade1);
+        printf("Vencedor: %s venceu!!!\n", cidade1);
     } else {
-        printf("Vencedor: %s venceu!!!", cidade2);
+        printf("Vencedor: %s venceu!!!\n", cidade2);
     }
     
     return 0;
